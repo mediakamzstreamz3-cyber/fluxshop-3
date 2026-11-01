@@ -1,0 +1,41 @@
+main-menu:
+  title: "&8▶ Shop"
+  rows: 3
+  # Item used to fill empty slots in the main menu. NONE = leave empty.
+  filler: NONE
+
+buttons:
+  # Item shown for the Back button at the bottom of each category.
+  back-item: BRAIN_CORAL
+
+# Currencies a category can use (set "currency: shards" on a category).
+# provider: vault      = Vault economy (your normal money)
+#           shards     = the "Shards - Folia" plugin (needs PlaceholderAPI)
+#           playerpoints = PlayerPoints plugin
+currencies:
+  vault:
+    name: Money
+    symbol: "$"
+    provider: vault
+  shards:
+    name: Shards
+    symbol: "✿"
+    provider: shards
+    # Placeholder used to read a player's balance
+    balance-placeholder: "%shards%"
+    # Console commands used to charge / refund ({player} and {amount} are filled in)
+    take-command: "shards take {player} {amount}"
+    give-command: "shards give {player} {amount}"
+
+messages:
+  prefix: "&b[Shop] &r"
+  # Success = green, errors = bold red
+  bought: "&aBought {amount}x {item} for {price}."
+  not-enough-money: "&c&lYou need {price} to buy that."
+  inventory-full: "&c&lYour inventory is full."
+  cannot-buy: "&c&lThat item can't be bought."
+  currency-unavailable: "&c&lThis shop's currency isn't available right now."
+  unknown-category: "&c&lUnknown shop category."
+  no-permission: "&c&lYou don't have permission."
+  players-only: "&c&lOnly players can use the shop."
+  reloaded: "&aShop reloaded. Loaded {count} categories."

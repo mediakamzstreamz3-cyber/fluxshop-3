@@ -1,0 +1,330 @@
+# Each category becomes a button in the main menu.
+# Items are added automatically across as many pages as needed.
+#
+# Category options:
+#   title:          inventory title when the category is open
+#   icon:           item shown in the main menu
+#   slot:           main menu slot (optional, 0-based)
+#   color:          colour code for the tooltips, e.g. "&a"
+#   display-name:   name used in the tooltip text (default = category id)
+#   button-name:    big name on the button (default = display-name)
+#   description:    grey line under the name (optional)
+#   currency:       vault (default) or shards - see config.yml
+#   page-rows:      item rows per page, 1-4 (default 4 = 36 items per page)
+#
+# Item options:
+#   buy:  price to buy 1 item  (use -1 to disable buying)
+
+categories:
+  blocks:
+    title: "&8▶ Blocks Shop"
+    icon: GRASS_BLOCK
+    slot: 11
+    color: "&a"
+    display-name: Blocks
+    items:
+      STONE: { buy: 115 }
+      COBBLESTONE: { buy: 105 }
+      DIRT: { buy: 105 }
+      COARSE_DIRT: { buy: 110 }
+      GRASS_BLOCK: { buy: 115 }
+      PODZOL: { buy: 115 }
+      MYCELIUM: { buy: 120 }
+      SAND: { buy: 110 }
+      RED_SAND: { buy: 115 }
+      GRAVEL: { buy: 110 }
+      CLAY: { buy: 120 }
+      MUD: { buy: 110 }
+      SNOW_BLOCK: { buy: 115 }
+      ICE: { buy: 120 }
+      PACKED_ICE: { buy: 130 }
+      BLUE_ICE: { buy: 145 }
+      GRANITE: { buy: 115 }
+      DIORITE: { buy: 115 }
+      ANDESITE: { buy: 115 }
+      DEEPSLATE: { buy: 120 }
+      COBBLED_DEEPSLATE: { buy: 115 }
+      TUFF: { buy: 115 }
+      CALCITE: { buy: 120 }
+      DRIPSTONE_BLOCK: { buy: 120 }
+      BASALT: { buy: 115 }
+      SMOOTH_BASALT: { buy: 120 }
+      BLACKSTONE: { buy: 120 }
+      SANDSTONE: { buy: 120 }
+      RED_SANDSTONE: { buy: 120 }
+      SMOOTH_STONE: { buy: 120 }
+      STONE_BRICKS: { buy: 120 }
+      DEEPSLATE_BRICKS: { buy: 125 }
+      BRICKS: { buy: 125 }
+      MUD_BRICKS: { buy: 120 }
+      MOSS_BLOCK: { buy: 125 }
+      GLASS: { buy: 115 }
+      WHITE_WOOL: { buy: 120 }
+      ORANGE_WOOL: { buy: 120 }
+      MAGENTA_WOOL: { buy: 120 }
+      LIGHT_BLUE_WOOL: { buy: 120 }
+      YELLOW_WOOL: { buy: 120 }
+      LIME_WOOL: { buy: 120 }
+      PINK_WOOL: { buy: 120 }
+      GRAY_WOOL: { buy: 120 }
+      LIGHT_GRAY_WOOL: { buy: 120 }
+      CYAN_WOOL: { buy: 120 }
+      PURPLE_WOOL: { buy: 120 }
+      BLUE_WOOL: { buy: 120 }
+      BROWN_WOOL: { buy: 120 }
+      GREEN_WOOL: { buy: 120 }
+      RED_WOOL: { buy: 120 }
+      BLACK_WOOL: { buy: 120 }
+      WHITE_CONCRETE: { buy: 125 }
+      ORANGE_CONCRETE: { buy: 125 }
+      MAGENTA_CONCRETE: { buy: 125 }
+      LIGHT_BLUE_CONCRETE: { buy: 125 }
+      YELLOW_CONCRETE: { buy: 125 }
+      LIME_CONCRETE: { buy: 125 }
+      PINK_CONCRETE: { buy: 125 }
+      GRAY_CONCRETE: { buy: 125 }
+      LIGHT_GRAY_CONCRETE: { buy: 125 }
+      CYAN_CONCRETE: { buy: 125 }
+      PURPLE_CONCRETE: { buy: 125 }
+      BLUE_CONCRETE: { buy: 125 }
+      BROWN_CONCRETE: { buy: 125 }
+      GREEN_CONCRETE: { buy: 125 }
+      RED_CONCRETE: { buy: 125 }
+      BLACK_CONCRETE: { buy: 125 }
+      WHITE_CONCRETE_POWDER: { buy: 120 }
+      ORANGE_CONCRETE_POWDER: { buy: 120 }
+      MAGENTA_CONCRETE_POWDER: { buy: 120 }
+      LIGHT_BLUE_CONCRETE_POWDER: { buy: 120 }
+      YELLOW_CONCRETE_POWDER: { buy: 120 }
+      LIME_CONCRETE_POWDER: { buy: 120 }
+      PINK_CONCRETE_POWDER: { buy: 120 }
+      GRAY_CONCRETE_POWDER: { buy: 120 }
+      LIGHT_GRAY_CONCRETE_POWDER: { buy: 120 }
+      CYAN_CONCRETE_POWDER: { buy: 120 }
+      PURPLE_CONCRETE_POWDER: { buy: 120 }
+      BLUE_CONCRETE_POWDER: { buy: 120 }
+      BROWN_CONCRETE_POWDER: { buy: 120 }
+      GREEN_CONCRETE_POWDER: { buy: 120 }
+      RED_CONCRETE_POWDER: { buy: 120 }
+      BLACK_CONCRETE_POWDER: { buy: 120 }
+      TERRACOTTA: { buy: 125 }
+      WHITE_TERRACOTTA: { buy: 125 }
+      ORANGE_TERRACOTTA: { buy: 125 }
+      MAGENTA_TERRACOTTA: { buy: 125 }
+      LIGHT_BLUE_TERRACOTTA: { buy: 125 }
+      YELLOW_TERRACOTTA: { buy: 125 }
+      LIME_TERRACOTTA: { buy: 125 }
+      PINK_TERRACOTTA: { buy: 125 }
+      GRAY_TERRACOTTA: { buy: 125 }
+      LIGHT_GRAY_TERRACOTTA: { buy: 125 }
+      CYAN_TERRACOTTA: { buy: 125 }
+      PURPLE_TERRACOTTA: { buy: 125 }
+      BLUE_TERRACOTTA: { buy: 125 }
+      BROWN_TERRACOTTA: { buy: 125 }
+      GREEN_TERRACOTTA: { buy: 125 }
+      RED_TERRACOTTA: { buy: 125 }
+      BLACK_TERRACOTTA: { buy: 125 }
+      WHITE_GLAZED_TERRACOTTA: { buy: 130 }
+      ORANGE_GLAZED_TERRACOTTA: { buy: 130 }
+      MAGENTA_GLAZED_TERRACOTTA: { buy: 130 }
+      LIGHT_BLUE_GLAZED_TERRACOTTA: { buy: 130 }
+      YELLOW_GLAZED_TERRACOTTA: { buy: 130 }
+      LIME_GLAZED_TERRACOTTA: { buy: 130 }
+      PINK_GLAZED_TERRACOTTA: { buy: 130 }
+      GRAY_GLAZED_TERRACOTTA: { buy: 130 }
+      LIGHT_GRAY_GLAZED_TERRACOTTA: { buy: 130 }
+      CYAN_GLAZED_TERRACOTTA: { buy: 130 }
+      PURPLE_GLAZED_TERRACOTTA: { buy: 130 }
+      BLUE_GLAZED_TERRACOTTA: { buy: 130 }
+      BROWN_GLAZED_TERRACOTTA: { buy: 130 }
+      GREEN_GLAZED_TERRACOTTA: { buy: 130 }
+      RED_GLAZED_TERRACOTTA: { buy: 130 }
+      BLACK_GLAZED_TERRACOTTA: { buy: 130 }
+      WHITE_STAINED_GLASS: { buy: 120 }
+      ORANGE_STAINED_GLASS: { buy: 120 }
+      MAGENTA_STAINED_GLASS: { buy: 120 }
+      LIGHT_BLUE_STAINED_GLASS: { buy: 120 }
+      YELLOW_STAINED_GLASS: { buy: 120 }
+      LIME_STAINED_GLASS: { buy: 120 }
+      PINK_STAINED_GLASS: { buy: 120 }
+      GRAY_STAINED_GLASS: { buy: 120 }
+      LIGHT_GRAY_STAINED_GLASS: { buy: 120 }
+      CYAN_STAINED_GLASS: { buy: 120 }
+      PURPLE_STAINED_GLASS: { buy: 120 }
+      BLUE_STAINED_GLASS: { buy: 120 }
+      BROWN_STAINED_GLASS: { buy: 120 }
+      GREEN_STAINED_GLASS: { buy: 120 }
+      RED_STAINED_GLASS: { buy: 120 }
+      BLACK_STAINED_GLASS: { buy: 120 }
+      OAK_PLANKS: { buy: 115 }
+      SPRUCE_PLANKS: { buy: 115 }
+      BIRCH_PLANKS: { buy: 115 }
+      JUNGLE_PLANKS: { buy: 115 }
+      ACACIA_PLANKS: { buy: 115 }
+      DARK_OAK_PLANKS: { buy: 115 }
+      MANGROVE_PLANKS: { buy: 115 }
+      CHERRY_PLANKS: { buy: 115 }
+      BAMBOO_PLANKS: { buy: 115 }
+      CRIMSON_PLANKS: { buy: 115 }
+      WARPED_PLANKS: { buy: 115 }
+      OAK_LOG: { buy: 120 }
+      SPRUCE_LOG: { buy: 120 }
+      BIRCH_LOG: { buy: 120 }
+      JUNGLE_LOG: { buy: 120 }
+      ACACIA_LOG: { buy: 120 }
+      DARK_OAK_LOG: { buy: 120 }
+      MANGROVE_LOG: { buy: 120 }
+      CHERRY_LOG: { buy: 120 }
+      CRIMSON_STEM: { buy: 120 }
+      WARPED_STEM: { buy: 120 }
+      BAMBOO_BLOCK: { buy: 120 }
+      NETHERRACK: { buy: 100 }
+      NETHER_BRICKS: { buy: 125 }
+      RED_NETHER_BRICKS: { buy: 125 }
+      NETHER_WART_BLOCK: { buy: 125 }
+      WARPED_WART_BLOCK: { buy: 125 }
+      SOUL_SAND: { buy: 115 }
+      SOUL_SOIL: { buy: 115 }
+      MAGMA_BLOCK: { buy: 130 }
+      GLOWSTONE: { buy: 135 }
+      SHROOMLIGHT: { buy: 140 }
+      POLISHED_BLACKSTONE: { buy: 120 }
+      POLISHED_BLACKSTONE_BRICKS: { buy: 125 }
+      GILDED_BLACKSTONE: { buy: 145 }
+      OBSIDIAN: { buy: 150 }
+      CRYING_OBSIDIAN: { buy: 155 }
+      BONE_BLOCK: { buy: 135 }
+      QUARTZ_BLOCK: { buy: 135 }
+      SMOOTH_QUARTZ: { buy: 135 }
+      QUARTZ_BRICKS: { buy: 140 }
+      QUARTZ_PILLAR: { buy: 135 }
+      CHISELED_QUARTZ_BLOCK: { buy: 140 }
+      END_STONE: { buy: 130 }
+      END_STONE_BRICKS: { buy: 130 }
+      PURPUR_BLOCK: { buy: 135 }
+      PURPUR_PILLAR: { buy: 135 }
+      PRISMARINE: { buy: 135 }
+      PRISMARINE_BRICKS: { buy: 135 }
+      DARK_PRISMARINE: { buy: 135 }
+      SEA_LANTERN: { buy: 145 }
+      COPPER_BLOCK: { buy: 150 }
+      CUT_COPPER: { buy: 150 }
+      AMETHYST_BLOCK: { buy: 150 }
+      BOOKSHELF: { buy: 150 }
+  combat:
+    title: "&8▶ Combat Shop"
+    icon: IRON_SWORD
+    slot: 12
+    color: "&c"
+    display-name: Combat
+    items:
+      WOODEN_SWORD: { buy: 135 }
+      STONE_SWORD: { buy: 145 }
+      IRON_SWORD: { buy: 155 }
+      DIAMOND_SWORD: { buy: 180 }
+      NETHERITE_SWORD: { buy: 200 }
+      BOW: { buy: 155 }
+      CROSSBOW: { buy: 160 }
+      ARROW: { buy: 105 }
+      SPECTRAL_ARROW: { buy: 125 }
+      SHIELD: { buy: 150 }
+      TRIDENT: { buy: 190 }
+      IRON_HELMET: { buy: 160 }
+      IRON_CHESTPLATE: { buy: 170 }
+      IRON_LEGGINGS: { buy: 165 }
+      IRON_BOOTS: { buy: 160 }
+      DIAMOND_HELMET: { buy: 185 }
+      DIAMOND_CHESTPLATE: { buy: 190 }
+      DIAMOND_LEGGINGS: { buy: 190 }
+      DIAMOND_BOOTS: { buy: 180 }
+      GOLDEN_APPLE: { buy: 160 }
+      ENDER_PEARL: { buy: 150 }
+      TOTEM_OF_UNDYING: { buy: 195 }
+      COBWEB: { buy: 135 }
+      FLINT_AND_STEEL: { buy: 135 }
+  food:
+    title: "&8▶ Food Shop"
+    icon: GOLDEN_APPLE
+    slot: 13
+    color: "&6"
+    display-name: Food
+    items:
+      BREAD: { buy: 115 }
+      SWEET_BERRIES: { buy: 110 }
+      MELON_SLICE: { buy: 105 }
+      CARROT: { buy: 110 }
+      APPLE: { buy: 115 }
+      COOKED_CHICKEN: { buy: 125 }
+      COOKED_BEEF: { buy: 125 }
+      GOLDEN_CARROT: { buy: 135 }
+      GOLDEN_APPLE: { buy: 160 }
+  redstone:
+    title: "&8▶ Redstone Shop"
+    icon: REDSTONE
+    slot: 14
+    color: "&4"
+    display-name: Redstone
+    page-rows: 3
+    items:
+      REDSTONE: { buy: 125 }
+      REDSTONE_BLOCK: { buy: 155 }
+      REDSTONE_TORCH: { buy: 125 }
+      REPEATER: { buy: 135 }
+      COMPARATOR: { buy: 145 }
+      OBSERVER: { buy: 145 }
+      REDSTONE_LAMP: { buy: 135 }
+      TARGET: { buy: 135 }
+      DAYLIGHT_DETECTOR: { buy: 145 }
+      PISTON: { buy: 140 }
+      STICKY_PISTON: { buy: 150 }
+      LEVER: { buy: 115 }
+      STONE_BUTTON: { buy: 115 }
+      OAK_FENCE_GATE: { buy: 125 }
+      DISPENSER: { buy: 145 }
+      DROPPER: { buy: 140 }
+      HOPPER: { buy: 150 }
+      CRAFTER: { buy: 155 }
+      SLIME_BLOCK: { buy: 145 }
+      HONEY_BLOCK: { buy: 145 }
+      NOTE_BLOCK: { buy: 135 }
+      POWERED_RAIL: { buy: 145 }
+      DETECTOR_RAIL: { buy: 135 }
+      SNOW_BLOCK: { buy: 115 }
+      ICE: { buy: 120 }
+      PACKED_ICE: { buy: 130 }
+      OAK_LEAVES: { buy: 115 }
+      TRAPPED_CHEST: { buy: 140 }
+      WATER_BUCKET: { buy: 135 }
+      FURNACE: { buy: 125 }
+      BLUE_ICE: { buy: 145 }
+      RAIL: { buy: 125 }
+      TRIPWIRE_HOOK: { buy: 130 }
+      TNT: { buy: 155 }
+      LIGHTNING_ROD: { buy: 150 }
+      SCULK_SENSOR: { buy: 155 }
+      CALIBRATED_SCULK_SENSOR: { buy: 165 }
+      COPPER_BULB: { buy: 150 }
+      LIGHT_WEIGHTED_PRESSURE_PLATE: { buy: 125 }
+      HEAVY_WEIGHTED_PRESSURE_PLATE: { buy: 125 }
+      STONE_PRESSURE_PLATE: { buy: 115 }
+      OAK_PRESSURE_PLATE: { buy: 115 }
+      OAK_BUTTON: { buy: 115 }
+      POLISHED_BLACKSTONE_BUTTON: { buy: 115 }
+      CHEST: { buy: 125 }
+  shards:
+    title: "&8▶ Shards Shop"
+    icon: AMETHYST_SHARD
+    slot: 15
+    color: "&d"
+    display-name: Shards
+    button-name: Shards Shop
+    currency: shards
+    items:
+      ELYTRA: { buy: 100 }
+      TOTEM_OF_UNDYING: { buy: 15 }
+      BEACON: { buy: 60 }
+      NETHER_STAR: { buy: 80 }
+      ENCHANTED_GOLDEN_APPLE: { buy: 25 }
+      EXPERIENCE_BOTTLE: { buy: 1 }
+      SHULKER_BOX: { buy: 20 }
+      NETHERITE_INGOT: { buy: 40 }

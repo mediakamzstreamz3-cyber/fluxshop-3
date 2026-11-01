@@ -1,0 +1,19 @@
+name: FluxShop
+version: 1.2.0
+main: net.fluxmc.fluxshop.FluxShop
+api-version: '1.20'
+depend: [Vault]
+softdepend: [PlaceholderAPI, PlayerPoints]
+folia-supported: true
+description: Paginated GUI shop with buy and sell support
+commands:
+  shop:
+    description: Open the shop
+    usage: /shop [category|reload]
+permissions:
+  fluxshop.use:
+    description: Use the shop
+    default: true
+  fluxshop.reload:
+    description: Reload the shop config
+    default: op
